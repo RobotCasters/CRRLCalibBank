@@ -1,0 +1,31 @@
+#Accelerometer
+accelerometer_noise_density: 0.0016673552118792998 
+accelerometer_random_walk: 3.829685875596812e-05 
+
+#Gyroscope
+gyroscope_noise_density: 0.0002167030126992594 
+gyroscope_random_walk: 1.493115972409979e-06 
+
+rostopic: '/imu_topic' #Make sure this is correct
+update_rate: 1600 #Make sure this is correct
+
+# ACCELEROMETER:
+# X Velocity Random Walk:  0.00148 m/s/sqrt(s)  0.08868 m/s/sqrt(hr)
+# Y Velocity Random Walk:  0.00158 m/s/sqrt(s)  0.09481 m/s/sqrt(hr)
+# Z Velocity Random Walk:  0.00167 m/s/sqrt(s)  0.10004 m/s/sqrt(hr)
+# X Bias Instability:  0.00028 m/s^2  3679.77168 m/hr^2
+# Y Bias Instability:  0.00021 m/s^2  2665.96402 m/hr^2
+# Z Bias Instability:  0.00034 m/s^2  4368.84322 m/hr^2
+# X Accel Random Walk:  0.00003 m/s^2/sqrt(s)
+# Y Accel Random Walk:  0.00003 m/s^2/sqrt(s)
+# Z Accel Random Walk:  0.00004 m/s^2/sqrt(s)
+# GYROSCOPE:
+# X Angle Random Walk:  0.00821 deg/sqrt(s)  0.49281 deg/sqrt(hr)
+# Y Angle Random Walk:  0.01242 deg/sqrt(s)  0.74497 deg/sqrt(hr)
+# Z Angle Random Walk:  0.00856 deg/sqrt(s)  0.51361 deg/sqrt(hr)
+# X Bias Instability:  0.00033 deg/s  1.19186 deg/hr
+# Y Bias Instability:  0.00067 deg/s  2.42589 deg/hr
+# Z Bias Instability:  0.00047 deg/s  1.69831 deg/hr
+# X Rate Random Walk:  0.00005 deg/s/sqrt(s)
+# Y Rate Random Walk:  0.00009 deg/s/sqrt(s)
+# Z Rate Random Walk:  0.00008 deg/s/sqrt(s)
